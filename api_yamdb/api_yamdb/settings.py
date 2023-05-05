@@ -25,7 +25,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'rest_framework_simplejwt',
-    'users.apps.UsersConfig',
     'api.apps.ApiConfig',
     'reviews.apps.ReviewsConfig',
 ]
@@ -105,7 +104,7 @@ USE_TZ = True
 
 # Устанавливаем кастомную модель User
 
-AUTH_USER_MODEL = 'users.User'
+AUTH_USER_MODEL = 'reviews.User'
 
 # D-R-F settings
 
